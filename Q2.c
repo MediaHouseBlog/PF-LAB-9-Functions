@@ -41,6 +41,3 @@ float applyDiscount(float totalCost){
 void printBill(float finalAmount){
 	printf("The Total Bill Is %0.2f",finalAmount);
 }
-
-
-
