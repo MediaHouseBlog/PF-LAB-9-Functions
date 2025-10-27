@@ -34,11 +34,13 @@ float applyDiscount(float totalCost){
 		float discount = totalCost*10/100;
 		printf("You Got A Discount Of %0.2f\n",discount);
 		finalAmount = totalCost - discount;
-			return finalAmount;
+		return finalAmount;
 	}
+	Printf("No Discount Applied\n");
 	return totalCost;
 }
 void printBill(float finalAmount){
 	printf("The Total Bill Is %0.2f",finalAmount);
 }
+
 
